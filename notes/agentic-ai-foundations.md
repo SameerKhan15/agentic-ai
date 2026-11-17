@@ -170,12 +170,7 @@ Additional reasoning generally increases per-call computation and final-answer l
 
 For a sequential agent:
 
-$$
-T_{\text{task}} \approx
-\sum_i T_{\text{model},i}
-+ \sum_j T_{\text{tool},j}
-+ T_{\text{orchestration}}
-$$
+$$T_{\text{task}} \approx \sum_i T_{\text{model},i} + \sum_j T_{\text{tool},j} + T_{\text{orchestration}}$$
 
 Concurrent work requires critical-path analysis rather than summing all durations.
 
